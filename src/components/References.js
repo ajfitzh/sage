@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Lab from './Lab'
 import {Grid } from '@mui/material'
-import { makeStyles } from '@material-ui/core'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';

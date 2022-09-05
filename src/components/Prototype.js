@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Lab from './Lab'
 import {Grid } from '@mui/material'
-import { makeStyles } from '@material-ui/core'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -15,28 +14,28 @@ let mockups = [
     name: 'Chat Function',
     date: '',
     description: 'Mockup of Student/Advisor/Alumni Function',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 1,
   },
   {
     name: "Career Picker",
     date: '',
     description: 'Mockup of Career Picker Function',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 1,
   },
   {
     name: "Job Board",
     date: '',
     description: 'Mockup of Job Board Function',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 1,
   },
   {
     name: "Cost Estimator",
     date: '',
     description: 'Mockup of Cost Estimator Function',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 1,
   }
 ]
@@ -46,14 +45,14 @@ let planning = [
     name: 'Prototype Planning Presentation',
     date: '',
     description: 'Presentation of our plan for prototype',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 3,
   },
   {
     name: "Sprint Plan",
     date: '',
     description: 'Plan for three major Sprints for Spring 23 semester',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 3,
   }
 ]
@@ -62,7 +61,7 @@ let features = [
     name: 'Features and Description',
     date: '',
     description: '',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
 ]
@@ -71,7 +70,7 @@ let weeklydevelopmentreports = [
     name: "Weekly Report Summary",
     date: '',
     description: 'Updated Weekly- most recent report at top of document',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 2,
   },
 ]
@@ -81,49 +80,49 @@ let finaldemonstration = [
     name: "Final Demonstration Powerpoint",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 3,
   },
   {
     name: "Pre-College Solution Flow",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "College Solution Flow",
     date: '',
     description: 'Flow Chart of college advising components through graduation',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Career Solution Flow",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Prototype Algorithms",
     date: '',
     description: 'Flow Chart of prototype algorithms',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Prototype Cost Estimates",
     date: '',
     description: 'Flowchart from Start to End, Problem/Step in Process/Prototype/RWP',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Prototype Database Diagram",
     date: '',
     description: 'PlantUML Diagram of final prototype',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
 ]

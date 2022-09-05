@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import TeamMember from "./TeamMember"
 import {Grid } from '@mui/material'
-import { makeStyles } from '@material-ui/core'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -9,12 +8,6 @@ import CardActionArea from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
 
-const useStyles = makeStyles({
-  gridContainer: {
-      paddingLeft: '20px',
-      paddingRight: '20px',
-  }
-})
 
 let members = [
   {

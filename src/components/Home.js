@@ -65,6 +65,9 @@ const Home = () => {
           </div>
     </Paper>
     <div id="problem">
+    <br></br>
+    <br></br>
+    <br></br>
       <Paper sx={{ alignItems: 'center' }}>
         <Typography sx={{textAlign:"center"}} variant='h2'>
           The Problem:
@@ -184,6 +187,9 @@ const Home = () => {
 
       </div>
       <div id="solution">
+      <br></br>
+    <br></br>
+    <br></br>
         <Paper sx={{textAlign:"center"}}>
         <Typography sx={{textAlign:"center"}} variant='h1'>
           How Can We Fix It?

@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Lab from './Lab'
 import {Grid } from '@mui/material'
-import { makeStyles } from '@material-ui/core'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -15,7 +14,7 @@ let presentations = [
     name: 'Design Presentation',
     date: '',
     description: 'Version 1',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 3,
   },
 ]
@@ -24,35 +23,35 @@ let maindeliverables = [
     name: 'User Roles and Stories',
     date: '2022-09-21',
     description: 'Listing of User Roles, User Stories, Admin Stories, Advisor Stories, Job Lister Stories ',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 2,
   },
   {
     name: "Database Schema",
     date: '',
     description: 'PlantUML Diagram',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Data Management Plan",
     date: '',
     description: 'Plan for handling user information, transcripts, photos, resumes, job listings',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 2,
   },
   {
     name: "Risks and Mitigations",
     date: '',
     description: 'Matrix of probabilty/damage of potentially dangerous outcomes',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 2,
   },
   {
     name: "Major Functional Components",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   }
 ]
@@ -61,49 +60,49 @@ let workbreakdownstructure = [
     name: "Competition Matrix",
     date: '',
     description: 'Matrix comparing features between our app and competitors',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Top Level Diagram",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "User Interface",
     date: '',
     description: 'Flowchart of User Interfaces for the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "External Interfaces",
     date: '',
     description: 'Flowchart of External Interfaces for the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Algorithms",
     date: '',
     description: 'Chart of necessary algorithms for the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Database",
     date: '',
     description: 'Flowchart of necessary database functionality and design requirements',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Testing",
     date: '',
     description: 'Flowchart of necessary test units',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   }
 ]
@@ -113,42 +112,42 @@ let algorithms = [
     name: "3D Degree Planner Generator",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Data Recording",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Cost Estimator",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "ODU/DegreeWorks API",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Web Scraper",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
   {
     name: "Chat Bot",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 4,
   },
 ]
@@ -157,21 +156,21 @@ let tools = [
     name: "Development Tools",
     date: '',
     description: 'Flow Chart of major components of the app',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 1,
   },
   {
     name: "Client and Server Specifications",
     date: '',
     description: 'Matrix comparing features between our app and competitors',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 2,
   },
   {
     name: "3rd Party Tools",
     date: '',
     description: 'Flowchart',
-    link: '',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 1,
   }
 ]
