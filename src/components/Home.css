@@ -1,0 +1,11 @@
+.head-text {
+    position: relative;
+ }
+ .text-on-image {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    color: white;
+  }
+
+  
