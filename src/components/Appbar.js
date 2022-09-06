@@ -40,10 +40,8 @@ const Appbar = () => {
           >
             <img src={require('../images/sage.jpg')} height='50vh' width='50vh'/>
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-
-          </Box>
-          <Typography
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', align: 'left' } }}>
+        <Typography
             variant="h5"
             noWrap
             component="a"
@@ -57,10 +55,13 @@ const Appbar = () => {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
+              
             }}
           >
-            Sage
+            <img src={require('../images/sage.jpg')} height='50vh' width='50vh'/>
           </Typography>
+          </Box>
+  
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
           <Button title="The Problem with CS Careers" href="/home#problem" color='inherit' startIcon={<AnnouncementIcon/>}>The Problem</Button>
           <Button title="Our Solution" href="/home#solution" color='inherit'><VerifiedIcon title="Team Bio" sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />The Solution</Button>

@@ -72,23 +72,31 @@ const Home = () => {
         <Typography sx={{textAlign:"center"}} variant='h2'>
           The Problem:
         </Typography>
+        <Divider/>
+        <br></br>
         <Typography variant='h4' sx={{textAlign:"center"}}>
           Virginians need better paying jobs.
         </Typography>
+        <br></br>
         <Stack
   direction="row"
   divider={<Divider orientation="vertical" flexItem />}
   spacing={2}
   justifyContent="space-evenly"
-><Item><Link to="https://www.aei.org/articles/have-wages-stagnated-for-decades-in-the-us/">Since 1973, hourly wages have grown by an average of just $0.18</Link></Item>
-<Item><Link to="https://www.in2013dollars.com/us/inflation/1973?amount=1">Since 1973, inflation has made $1 from 1970 equivalent to $6.67 in 2022, a growth of $5.67</Link></Item>
-<Item><Link to="https://www.sofi.com/cost-of-living-in-virginia/">Virginians require $42,000 per year to stay afloat (2020 data)</Link></Item>
+>
+<Button variant='outlined' target="_blank" href="https://www.aei.org/articles/have-wages-stagnated-for-decades-in-the-us/">Since 1973, hourly wages have grown by an average of just $0.18</Button>
+<Button variant='outlined' target="_blank" href="https://www.in2013dollars.com/us/inflation/1973?amount=1">Since 1973, inflation has made $1 from 1970 equivalent to $6.67 in 2022, a growth of $5.67</Button>
+<Button variant='outlined' target="_blank" href="https://www.sofi.com/cost-of-living-in-virginia/">Virginians require $42,000 per year to stay afloat (2020 data)</Button>
 </Stack>
-<img src="https://cdn.statcdn.com/Infographic/images/normal/25574.jpeg" alt="Infographic: The Living Wage Gap | Statista" width="100%" height="auto" />
-<Typography variant='h4' sx={{textAlign:"center"}}>Computer Jobs Pay Well</Typography>
-<Typography sx={{textAlign:"center"}}>        
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMfQLPgThRbZN8t9lawAmdQTp5LMY8N_tzfOWzo1P8DLFFsuJgXD42WxpQBZnvEieLRD-dTDvgnH0Q/pubchart?oid=2117026920&amp;format=interactive"></iframe>
 <br></br>
+<img src={require("../images/mark.jpg")} width="100%" height="100%" />
+<Typography variant='h4' sx={{textAlign:"center"}}>Computer Jobs Pay Well</Typography>
+<Typography> 
+<img src={require('../images/salary.png')}
+      width= '100%'
+      height= '10%'
+      />
+  <br></br>
 </Typography>
       <Typography variant='h4' sx={{textAlign:"center"}}>
           They're Plentiful
@@ -99,10 +107,10 @@ const Home = () => {
   spacing={2}
   justifyContent="space-evenly"
 >
-<Item><Link to="https://www.imf.org/Publications/fandd/issues/2019/03/global-competition-for-technology-workers-costa">By 2030, global shortage of more than 85 million tech workers - $8.5 trillion in lost annual revenue</Link></Item>
-<Item><Link to="https://www.bls.gov/ooh/Computer-and-Information-Technology/Software-developers.htm">By 2030, the U.S. need for software devs is expected to increase by 22%, but actual devs only up 8% (BLS)</Link></Item>
-<Item><Link to="https://www.cnbc.com/2019/11/06/how-switching-careers-to-tech-could-solve-the-us-talent-shortage.html">In 2019, U.S. companies had about 918,000 unfilled IT jobs</Link></Item>
-<Item><Link to="https://www.cnbc.com/2019/11/06/how-switching-careers-to-tech-could-solve-the-us-talent-shortage.html">Even with 60,300 CS graduates, 20,000 bootcamp graduates, and 85,000 H-1B visas, there is still a major gap for U.S. talent.</Link></Item>
+<Button variant='outlined' target="_blank" href="https://www.imf.org/Publications/fandd/issues/2019/03/global-competition-for-technology-workers-costa">By 2030, global shortage of more than 85 million tech workers - $8.5 trillion in lost annual revenue</Button>
+<Button variant='outlined' target="_blank" href="https://www.bls.gov/ooh/Computer-and-Information-Technology/Software-developers.htm">By 2030, the U.S. need for software devs is expected to increase by 22%, but actual devs only up 8% (BLS)</Button>
+<Button variant='outlined' target="_blank" href="https://www.cnbc.com/2019/11/06/how-switching-careers-to-tech-could-solve-the-us-talent-shortage.html">In 2019, U.S. companies had about 918,000 unfilled IT jobs</Button>
+<Button variant='outlined' target="_blank" href="https://www.cnbc.com/2019/11/06/how-switching-careers-to-tech-could-solve-the-us-talent-shortage.html">Even with 60,300 CS graduates, 20,000 bootcamp graduates, and 85,000 H-1B visas, there is still a major gap for U.S. talent.</Button>
 
 </Stack>
 <Typography variant='h4' sx={{textAlign:"center"}}>
@@ -121,8 +129,8 @@ const Home = () => {
   spacing={2}
   justifyContent="space-evenly"
 >
-<Item><Link to="https://www.vedp.org/industry/software">Amazon invested $2.5 billion for VA HQ, requiring 25,000 high tech jobs over next 12 years</Link></Item>
-<Item><Link to="/https://www.vedp.org/industry/software">Virginia has targeted 32,000 additional graduates in CS and related fields over the next 20 years-- how will it get there?</Link></Item>
+<Button variant='outlined' target="_blank" href="https://www.vedp.org/industry/software">Amazon invested $2.5 billion for VA HQ, requiring 25,000 high tech jobs over next 12 years</Button>
+<Button variant='outlined' target="_blank" href="https://www.vedp.org/industry/software">Virginia has targeted 32,000 additional graduates in CS and related fields over the next 20 years-- how will it get there?</Button>
 </Stack>
 <Typography variant='h4' sx={{textAlign:"center"}}>
           Virginia has Potential for More
@@ -133,7 +141,7 @@ const Home = () => {
   spacing={2}
   justifyContent="space-evenly"
 >
-<Link to="https://www.vedp.org/industry/software">Virginia has the highest concentration of tech talent and 3rd largest tech workforce in nation</Link>
+<Button variant='outlined' target="_blank" href="https://www.vedp.org/industry/software">Virginia has the highest concentration of tech talent and 3rd largest tech workforce in nation</Button>
 </Stack>
 
 <Typography variant='h4' sx={{textAlign:"center"}}>
@@ -145,7 +153,7 @@ const Home = () => {
   spacing={2}
   justifyContent="space-evenly"
 >
-<Item><Link to="https://www.vedp.org/industry/software">Virginia is investing more than $2 billion to expand its tech talent pipeline, doubling the number of graduates each year in computer science and closely related fields.</Link></Item>
+<Button variant='outlined' target="_blank" href="https://www.vedp.org/industry/software">Virginia is investing more than $2 billion to expand its tech talent pipeline, doubling the number of graduates each year in computer science and closely related fields.</Button>
 </Stack><br></br><br></br>
 <Typography variant='h4' sx={{textAlign:"center"}}>
           But...College is a Tough Sell Now
@@ -158,9 +166,9 @@ const Home = () => {
   divider={<Divider orientation="vertical" flexItem />}
   spacing={2}
   justifyContent="space-evenly"
-><Item><Link to="https://www.sofi.com/learn/content/student-debt-by-majors/">Average Student Loan Balance: $37,113</Link></Item>
-<Item><Link to="https://www.forbes.com/sites/susanadams/2013/08/09/the-25-colleges-with-the-worst-return-on-investment/?sh=58ea3d0a1c9c">College is now high-risk: One accredited school costs $155k and offers a negative return over 30 years of $228,000. </Link></Item>
-<Item><Link to="https://www.publicagenda.org/reports/americas-hidden-common-ground-on-public-higher-education/">In a 2022 survey, fully half of respondents say college is a "questionable investment" due to student loans and limited job opportunities.</Link></Item>
+><Button variant='outlined' target="_blank" href="https://www.sofi.com/learn/content/student-debt-by-majors/">Average Student Loan Balance: $37,113</Button>
+<Button variant='outlined' target="_blank" href="https://www.forbes.com/sites/susanadams/2013/08/09/the-25-colleges-with-the-worst-return-on-investment/?sh=58ea3d0a1c9c">College is now high-risk: One accredited school costs $155k and offers a negative return over 30 years of $228,000. </Button>
+<Button variant='outlined' target="_blank" href="https://www.publicagenda.org/reports/americas-hidden-common-ground-on-public-higher-education/">In a 2022 survey, fully half of respondents say college is a "questionable investment" due to student loans and limited job opportunities.</Button>
 </Stack>
 <br></br>
         <Typography sx={{textAlign:"center"}} variant='h2'>
