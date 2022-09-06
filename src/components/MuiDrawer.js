@@ -60,8 +60,8 @@ const MuiDrawer = () => {
             </IconButton>
         
             <List>
-                <ListItem disablePadding><ListItemButton href="#problem"><ListItemIcon> <AnnouncementIcon/></ListItemIcon><ListItemText primary="The Problem"/></ListItemButton></ListItem>
-                <ListItem disablePadding><ListItemButton href="#solution"><ListItemIcon> <VerifiedIcon/></ListItemIcon><ListItemText primary="The Solution"/></ListItemButton></ListItem>
+                <ListItem disablePadding><ListItemButton href="/#problem"><ListItemIcon> <AnnouncementIcon/></ListItemIcon><ListItemText primary="The Problem"/></ListItemButton></ListItem>
+                <ListItem disablePadding><ListItemButton href="/#solution"><ListItemIcon> <VerifiedIcon/></ListItemIcon><ListItemText primary="The Solution"/></ListItemButton></ListItem>
                 <ListItem disablePadding><ListItemButton href="/team"><ListItemIcon> <GroupsIcon/></ListItemIcon><ListItemText primary="The Team"/></ListItemButton></ListItem>
                 <ListItem disablePadding><ListItemButton onClick={handleClickFeasibility}><ListItemIcon> <AnalyticsIcon/></ListItemIcon><ListItemText primary="Feasibility Reports"/>{openFeasibility ? <ExpandLess /> : <ExpandMore />}</ListItemButton></ListItem>
                 <Collapse in={openFeasibility} timeout="auto" unmountOnExit>

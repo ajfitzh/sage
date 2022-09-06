@@ -27,7 +27,7 @@ const Appbar = () => {
             variant="h6"
             noWrap
             component="a"
-            href="/home"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -63,8 +63,8 @@ const Appbar = () => {
           </Box>
   
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-          <Button title="The Problem with CS Careers" href="/home#problem" color='inherit' startIcon={<AnnouncementIcon/>}>The Problem</Button>
-          <Button title="Our Solution" href="/home#solution" color='inherit'><VerifiedIcon title="Team Bio" sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />The Solution</Button>
+          <Button title="The Problem with CS Careers" href="/#problem" color='inherit' startIcon={<AnnouncementIcon/>}>The Problem</Button>
+          <Button title="Our Solution" href="/#solution" color='inherit'><VerifiedIcon title="Team Bio" sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />The Solution</Button>
           <Button title="Meet the Team!" href="/team" color='inherit'><GroupsIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />Team</Button>
           <Button title="Feasibility Studies and Reports" href="/feasibility" color='inherit'><AnalyticsIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />Feasibility</Button>
           <Button title="Design Documents and Reports" href="/design" color='inherit'><AccountTreeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />Design</Button>
