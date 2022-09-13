@@ -20,12 +20,12 @@ let members = [
     email: "afitz010@odu.edu"
   },
   {
-    name: 'Adal Bertoni',
-    avatar: 2,
-    bio: " Adal Bertoni is a Senior at Old Dominion University seeking a Computer Science degree. Outside of academia, he works as a Product Manager at a software company that specializes in Computer Vision and Reality Capture Data. In his free time he participates in Game Jams and enjoys the challenge of creating a full product in a short timeframe.",
-    role: "Backend Developer",
-    major: "CS",
-    year: "Senior",
+    name: 'Jim Richardson',
+    avatar: 9,
+    bio: " A dick of stone and a heart of gold, Jim has been working as an Engineer for over a decade. He has extensive experience in project management and sniping noobs with his golden Dragunov.",
+    role: "Engineer",
+    major: "Mech. Eng.",
+    year: "Alumni (VT)",
     email: "placeholder001@cooldude.org"
   },
   {
