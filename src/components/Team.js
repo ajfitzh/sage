@@ -25,7 +25,7 @@ let members = [
     bio: "Austin is a senior at ODU, and excited to develop!",
     role: "Researcher",
     major: "CS",
-    year: "Senior",
+    year: "2023",
     email: "afitz010@odu.edu"
   },
   {
@@ -34,7 +34,7 @@ let members = [
     bio: "TBD",
     role: "Researcher",
     major: "CS",
-    year: "Senior",
+    year: "2023",
     email: "bgonz006@odu.edu"
   },
   {
@@ -43,32 +43,32 @@ let members = [
     bio:"TBD",
     role: "Researcher",
     major: "CS",
-    year: "Senior",
+    year: "2023",
     email: "ngrea001@odu.edu"
   },
   {
     name: 'Marcus Jackson',
     avatar: 5,
     bio:"",
-    role: "Front End Developer/Document Specialist",
+    role: "Researcher",
     major: "CS",
-    year: "Senior",
+    year: "2023",
     email: "mjack040@odu.edu"
   },
   {
     name: 'Isaac Replogle',
     avatar: 6,
-    bio: "TBD",
-    role: "Database Developer",
+    bio: "Isaac Replogle is a Senior at ODU studying Computer Science and is currently employed full-time at EFT Corporation. In his free time, he enjoys going on road trips, with his wife Georgia, to visit family or to go on hiking trips in the mountains.",
+    role: "Researcher",
     major: "CS",
-    year: "Senior",
+    year: "2023",
     email: "irepl001@odu.edu"
   },
   {
     name: 'Trevor Simmons',
     avatar: 7,
     bio:"TBD",
-    role: "Front End Developer",
+    role: "Researcher",
     major: "CS",
     year: "Senior",
     email: "tsimm033@odu.edu"
