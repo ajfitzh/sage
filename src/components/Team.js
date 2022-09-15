@@ -67,7 +67,7 @@ let members = [
   {
     name: 'Trevor Simmons',
     avatar: 10,
-    bio:"TBD",
+    bio:"Trevor is a senior studying Cyber Operations and Computer Science at ODU. He has a variety of experience in software development, cybersecurity, and IT. In his free time he enjoys gaming, reading, and drawing. ",
     role: "Researcher",
     major: "CS",
     year: "Senior",
