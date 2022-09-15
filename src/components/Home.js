@@ -76,7 +76,11 @@ const Home = () => {
         <Divider/>
         <br></br>
         <Typography variant='h4' sx={{textAlign:"center"}}>
-          Increase Recruitment, Retention, and Graduation rates for CS programs in VA
+          Increase Recruitment, Retention, and Graduation rates for accredited CS/IT programs in Virginia
+        </Typography>
+        <br></br><br></br>
+        <Typography variant='h4' sx={{textAlign:"center"}}>
+          Why the urgency? First, because Virginians need better jobs.
         </Typography>
         <br></br>
         <Stack
