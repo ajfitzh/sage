@@ -22,7 +22,7 @@ let members = [
   {
     name: 'Jim Richardson',
     avatar: 9,
-    bio: " A dick of stone and a heart of gold, Jim has been working as an Engineer for over a decade. He has extensive experience in project management and sniping noobs with his golden Dragunov.",
+    bio: " A heart of gold, Jim has been working as an Engineer for over a decade. He has extensive experience in project management and sniping noobs with his golden Dragunov.",
     role: "Engineer",
     major: "Mech. Eng.",
     year: "Alumni (VT)",
