@@ -23,7 +23,7 @@ let maindeliverables = [
     name: 'User Roles and Stories',
     date: '2022-09-21',
     description: 'Listing of User Roles, User Stories, Admin Stories, Advisor Stories, Job Lister Stories ',
-    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
+    link: 'https://docs.google.com/document/d/e/2PACX-1vTcF5_9eAuaf8Wo1wzWsagbY2ozYBXCdT5J11ERdzSf44m-b-Ieqg9AZyUNTeNJxQNYeJw-3GbQDBfO/pub?embedded=true',
     img: 2,
   },
   {
@@ -37,7 +37,7 @@ let maindeliverables = [
     name: "Data Management Plan",
     date: '',
     description: 'Plan for handling user information, transcripts, photos, resumes, job listings',
-    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
+    link: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRfieBi3SgjZakOfKQejknN8vlccQnRcJaHCKlxgN1FoaxK7Odfd_21EZE8-kc5NEDhH9FChM1s9qhH/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false',
     img: 2,
   },
   {
@@ -46,13 +46,6 @@ let maindeliverables = [
     description: 'Matrix of probabilty/damage of potentially dangerous outcomes',
     link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
     img: 2,
-  },
-  {
-    name: "Major Functional Components",
-    date: '',
-    description: 'Flow Chart of major components of the app',
-    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
-    img: 4,
   }
 ]
 let workbreakdownstructure = [

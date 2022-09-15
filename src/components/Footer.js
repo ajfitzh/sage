@@ -42,7 +42,7 @@ export default function StickyFooter() {
       >
         <Container maxWidth="sm">
           <Typography variant="body1">
-          <Link to="https://www.odu.edu">Old Dominion University</Link> | <Link to="http://cs.odu.edu">CS Department</Link>
+          <Link to="">Old Dominion University</Link> | <Link to="">CS Department</Link>
           </Typography>
           <Copyright />
         </Container>
