@@ -14,7 +14,7 @@ let members = [
     name: 'Austin Fitzhugh',
     avatar: 1,
     bio: "Austin is a senior at ODU, and excited to develop!",
-    role: "Team Lead",
+    role: "Researcher",
     major: "CS",
     year: "Senior",
     email: "afitz010@odu.edu"
@@ -23,7 +23,7 @@ let members = [
     name: 'Jim Richardson',
     avatar: 9,
     bio: " A heart of gold, Jim has been working as an Engineer for over a decade. He has extensive experience in project management and sniping noobs with his golden Dragunov.",
-    role: "Engineer",
+    role: "Researcher",
     major: "Mech. Eng.",
     year: "Alumni (VT)",
     email: "placeholder001@cooldude.org"
@@ -32,7 +32,7 @@ let members = [
     name: 'Byron Aquatico',
     avatar: 3,
     bio: "Byron is a undergraduate at Old Dominion University majoring in Computer Science and working on his second degree. He has a passion for computers and currently works as a Team Lead/Full Stack Software Engineer. He is a father of two and enjoys spending his time with the kids. He has over 18 years of professional work experience under his belt. He likes the beach, hiking, camping, fast cars, biking, and kayaking.",
-    role: "Backend Developer",
+    role: "Researcher",
     major: "CS",
     year: "Senior",
     email: "placeholder001@cooldude.org"
@@ -41,7 +41,7 @@ let members = [
     name: 'Greg Nikola',
     avatar: 4,
     bio: "Gregory is a senior at Old Dominion University majoring in Computer science with a minor in Cyber Security. Outside of school Greg is an active member of his fraternity Sigma Pi where he has served on the Executive Council and as the Pledge Educator. He enjoys all types of sports, gaming, and the outdoors. Greg hopes that after his time in in school he will be able to obtain a career in the field of Cyber Security.",
-    role: "Front End Developer",
+    role: "Researcher",
     major: "CS",
     year: "Senior",
     email: "gnik10@odu.edu"
