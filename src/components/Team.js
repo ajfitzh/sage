@@ -30,7 +30,7 @@ let members = [
   },
   {
     name: 'Benjamin Gonzalez',
-    avatar: 3,
+    avatar: 10,
     bio: "TBD",
     role: "Researcher",
     major: "CS",
@@ -39,7 +39,7 @@ let members = [
   },
   {
     name: 'Nathan Greaney',
-    avatar: 4,
+    avatar: 10,
     bio:"TBD",
     role: "Researcher",
     major: "CS",
@@ -48,7 +48,7 @@ let members = [
   },
   {
     name: 'Marcus Jackson',
-    avatar: 5,
+    avatar: 10,
     bio:"",
     role: "Researcher",
     major: "CS",
@@ -66,7 +66,7 @@ let members = [
   },
   {
     name: 'Trevor Simmons',
-    avatar: 7,
+    avatar: 10,
     bio:"TBD",
     role: "Researcher",
     major: "CS",
@@ -75,7 +75,7 @@ let members = [
   },
   {
     name: 'Placeholder for Mentor',
-    avatar: 8,
+    avatar: 10,
     bio:"TBD",
     role: "Mentor",
     major: "CS",
