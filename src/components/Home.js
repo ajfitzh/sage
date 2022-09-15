@@ -76,7 +76,7 @@ const Home = () => {
         <Divider/>
         <br></br>
         <Typography variant='h4' sx={{textAlign:"center"}}>
-          Virginians need better paying jobs.
+          Increase Recruitment, Retention, and Graduation rates for CS programs in VA
         </Typography>
         <br></br>
         <Stack
