@@ -48,8 +48,8 @@ let members = [
   },
   {
     name: 'Marcus Jackson',
-    avatar: 10,
-    bio:"",
+    avatar: 5,
+    bio:"Marcus Jackson is a Senior majoring in Computer Science at Old Dominion University. He is a native of Mobile, Al and loves spending free time saltwater fishing.",
     role: "Researcher",
     major: "CS",
     year: "2023",
