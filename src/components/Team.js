@@ -30,8 +30,8 @@ let members = [
   },
   {
     name: 'Benjamin Gonzalez',
-    avatar: 10,
-    bio: "TBD",
+    avatar: 3,
+    bio: "Benjamin Gonzalez is a senior at ODU studying computer science with a minor in cybersecurity. In his free time, he enjoys CrossFit, running, playing sports, and playing piano.",
     role: "Researcher",
     major: "CS",
     year: "2023",
