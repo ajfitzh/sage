@@ -13,7 +13,7 @@ let members = [
     {
     name: 'Bret Dorgan',
     avatar: 1,
-    bio: "Bret Dorgan is a Senior at ODU majoring in Conputer Science. He is eager to help promote ODU with this project, and is looking forward to graduating in Spring 2023.",
+    bio: "Bret Dorgan is a Senior at ODU majoring in Computer Science. He is eager to help promote ODU with this project, and is looking forward to graduating in Spring 2023.",
     role: "Researcher",
     major: "Computer Science",
     year: "2023",
@@ -39,8 +39,8 @@ let members = [
   },
   {
     name: 'Nathan Greaney',
-    avatar: 10,
-    bio:"TBD",
+    avatar: 4,
+    bio:"Nathan Greaney is a senior at ODU majoring in Computer Science. He manages the IT Department for a division of his local municipality. After 25 long years in higher education, he will be graduating in Spring 2023. He plans to pursue a Masters in Computer Science in Fall 2023.",
     role: "Researcher",
     major: "CS",
     year: "2023",
