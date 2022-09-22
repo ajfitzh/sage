@@ -55,7 +55,7 @@ const Home = () => {
   return (
     <div>
     <Paper className='head-text' elevation={0}>
-    <img src={require('../images/greenery.jpg')}
+    <img src={require('../images/reddery.jpg')}
       width= '100%'
       height= '100%'
       />
