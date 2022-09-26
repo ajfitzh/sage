@@ -76,7 +76,7 @@ const Home = () => {
         <Divider/>
         <br></br>
         <Typography variant='h4' sx={{textAlign:"center"}}>
-          CSE/IT students in Virginia lack an efficient path from career ideation to college enrollment, graduation, and a career powering Virginia’s tech economy
+          Increase Recruitment, Retention, and Graduation rates for accredited CS/IT programs in Virginia
         </Typography>
         <br></br><br></br>
         <Divider/>
