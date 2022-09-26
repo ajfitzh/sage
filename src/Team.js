@@ -22,8 +22,8 @@ let members = [
   {
     name: 'Austin Fitzhugh',
     avatar: 2,
-    bio: "Austin is a senior at ODU, and excited to develop!",
-    role: "Researcher",
+    bio: "Austin is a senior at ODU, bad at bios, and excited to develop!",
+    role: "Assistant to the Regional Web Designer / Presenter 2",
     major: "CS",
     year: "2023",
     email: "afitz010@odu.edu"
@@ -59,7 +59,7 @@ let members = [
     name: 'Isaac Replogle',
     avatar: 6,
     bio: "Isaac Replogle is a Senior at ODU studying Computer Science and is currently employed full-time at EFT Corporation. In his free time, he enjoys going on road trips, with his wife Georgia, to visit family or to go on hiking trips in the mountains.",
-    role: "Researcher",
+    role: "Webmaster",
     major: "CS",
     year: "2023",
     email: "irepl001@odu.edu"
@@ -68,7 +68,7 @@ let members = [
     name: 'Trevor Simmons',
     avatar: 7,
     bio:"Trevor is a senior studying Cyber Operations and Computer Science at ODU. He has a variety of experience in software development, cybersecurity, and IT. In his free time he enjoys gaming, reading, and drawing. ",
-    role: "Researcher",
+    role: "Assistant Webmaster",
     major: "CS",
     year: "Senior",
     email: "tsimm033@odu.edu"
