@@ -10,7 +10,7 @@ import FeasibilityItem from './FeasibilityItem'
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import './Home.css'
-import LandingImage from "../images/greenery.jpg"
+import LandingImage from "../images/reddery.jpg"
 
 let problems = [
   {
@@ -55,7 +55,7 @@ const Home = () => {
   return (
     <div>
     <Paper className='head-text' elevation={0}>
-    <img src={require('../images/reddery.jpg')}
+    <img src={LandingImage}
       width= '100%'
       height= '100%'
       />
