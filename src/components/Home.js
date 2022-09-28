@@ -76,7 +76,7 @@ const Home = () => {
         <Divider/>
         <br></br>
         <Typography variant='h4' sx={{textAlign:"center"}}>
-          Increase Recruitment, Retention, and Graduation rates for accredited CS/IT programs in Virginia
+        CSE/IT students in Virginia lack a personalized path from career ideation to college enrollment, graduation, and a career powering Virginia’s tech economy.
         </Typography>
         <br></br><br></br>
         <Divider/>
