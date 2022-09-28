@@ -22,7 +22,7 @@ let members = [
   {
     name: 'Austin Fitzhugh',
     avatar: 2,
-    bio: "Austin is a senior at ODU, bad at bios, and excited to develop!",
+    bio: "Austin is a senior at ODU, married with kids, and comes to this project with 5+ years experience in Advising and Coaching at the Community College level in Virginia. He is passionate about finding ways to connect students to better careers.",
     role: "Assistant to the Regional Web Designer / Presenter 2",
     major: "CS",
     year: "2023",
@@ -76,7 +76,7 @@ let members = [
   {
     name: 'Matthew P. Cowley',
     avatar: 10,
-    bio:"Multipotentialiate and Polymath - Career Coach and Strategist, Higher Education Administrator, Race Scholar and DEI Educator, and Podcast Co-Host",
+    bio:"Multipotentialite and Polymath - Career Coach and Strategist, Higher Education Administrator, Race Scholar and DEI Educator, and Podcast Co-Host",
     role: "Mentor",
     major: "",
     year: "ODU: Director of Career Development Services",
