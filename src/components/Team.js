@@ -92,7 +92,7 @@ const Team = () => {
       <Grid container spacing={2}>
         {members.map((member) => {
           return (
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item xs={6} sm={2} md={4} margin={2}>
               <TeamMember key={member.name} member={member} avatar={member.avatar}></TeamMember>
             </Grid>
           )
