@@ -11,22 +11,16 @@ import Reference from './Reference'
 
 let references = [
   {
-    name: 'Links',
-    date: '',
-    description: 'Research Links',
-    link: 'https://docs.google.com/document/d/e/2PACX-1vR7jlgRnLbmj4f9BdjjqILT4Q8ekHBQ1AzZIkhHakZjiDT2QDpntU0kzajhPsvZiklaRipNG7ys2dxd/pub?embedded=true',
-  },
-  {
     name: "Glossary",
     date: '',
     description: 'Glossary of Terms',
-    link: 'https://docs.google.com/document/d/e/2PACX-1vR7jlgRnLbmj4f9BdjjqILT4Q8ekHBQ1AzZIkhHakZjiDT2QDpntU0kzajhPsvZiklaRipNG7ys2dxd/pub?embedded=true',
+    link: 'https://docs.google.com/document/d/e/2PACX-1vRxr3OymTFMBEy88iwp_XvZnmk8Si29s-c8X6DnzusuAOh6tANeRMa66Ca2jd5_XiAIdQ6mZk8D-9Hd/pub?embedded=true',
   },
   {
-    name: 'References',
+    name: 'References and Links',
     date: '',
     description: 'List of Academic References and Documentation',
-    link: 'https://docs.google.com/document/d/e/2PACX-1vR7jlgRnLbmj4f9BdjjqILT4Q8ekHBQ1AzZIkhHakZjiDT2QDpntU0kzajhPsvZiklaRipNG7ys2dxd/pub?embedded=true',
+    link: 'https://docs.google.com/document/d/e/2PACX-1vTwqgr3VwDgq9VjoYqYpOYCeZRKbmx7R9K59w3-nAAKnhSBUpKudlT6d5CtqQYs7HRfoZzdhmql8j1e/pub?embedded=true',
   },
 
 ]

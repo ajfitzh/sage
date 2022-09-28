@@ -30,7 +30,7 @@ let maindeliverables = [
     name: "Database Schema",
     date: '',
     description: 'PlantUML Diagram',
-    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
+    link: 'https://dbdiagram.io/embed/63287f570911f91ba5e4b71f',
     img: 4,
   },
   {
@@ -43,8 +43,8 @@ let maindeliverables = [
   {
     name: "Risks and Mitigations",
     date: '',
-    description: 'Matrix of probabilty/damage of potentially dangerous outcomes',
-    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
+    description: 'Security, Technical, and Customer Risk Matrices',
+    link: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSR8sjiW1oQFqtzQ28cU1FMg10pS9tGlTbnfOS9v9yvMvEHvSTpQmus9Tg5R85zKN-ttxPjECsyMPXA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false',
     img: 2,
   }
 ]

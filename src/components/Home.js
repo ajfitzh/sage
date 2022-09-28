@@ -10,7 +10,7 @@ import FeasibilityItem from './FeasibilityItem'
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import './Home.css'
-import LandingImage from "../images/greenery.jpg"
+import LandingImage from "../images/reddery.jpg"
 
 let problems = [
   {
@@ -55,7 +55,7 @@ const Home = () => {
   return (
     <div>
     <Paper className='head-text' elevation={0}>
-    <img src={require('../images/greenery.jpg')}
+    <img src={LandingImage}
       width= '100%'
       height= '100%'
       />
@@ -79,6 +79,7 @@ const Home = () => {
           Increase Recruitment, Retention, and Graduation rates for accredited CS/IT programs in Virginia
         </Typography>
         <br></br><br></br>
+        <Divider/>
         <Typography variant='h4' sx={{textAlign:"center"}}>
           Why the urgency? First, because Virginians need better jobs.
         </Typography>
