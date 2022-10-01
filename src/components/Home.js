@@ -81,7 +81,7 @@ const Home = () => {
         <br></br><br></br>
         <Divider/>
         <Typography variant='h4' sx={{textAlign:"center"}}>
-          Why the urgency? First, because Virginians need better jobs.
+          Virginians need better jobs.
         </Typography>
         <br></br>
         <Stack
@@ -120,8 +120,9 @@ const Home = () => {
 
 </Stack>
 <Typography variant='h4' sx={{textAlign:"center"}}>
-          They're Local
-        </Typography>
+          They're Local 
+        
+        <a href="https://www.tesla.com/careers/search/?site=US&state=VA">...Even Tesla!</a></Typography>
 <img src={require('../images/jobsmap.png')}
       width= '100%'
       height= '100%'
@@ -178,7 +179,7 @@ const Home = () => {
 </Stack>
 <br></br>
         <Typography sx={{textAlign:"center"}} variant='h2'>
-          Virginia's Pipeline has Issues
+          Virginia's Higher Education System has Issues
         </Typography>
     <Typography sx={{textAlign:"center"}} variant='h4'>
     (click on each to view more details)
