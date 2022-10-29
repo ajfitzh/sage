@@ -36,7 +36,14 @@ let presentations = [
     name: "Feasibility Presentation",
     date: '',
     description: 'Version 1',
-    link: 'https://docs.google.com/presentation/d/1vw179qGjNhXWQIaVhIMHTlNQ2dsPKqU9RHMHPXi607U/edit?usp=sharing',
+    link: 'https://docs.google.com/presentation/d/1v4LHLIU_sq2ZTxYF0s9VXSKtbiuMvfPEI3ozFNKWgWI/edit?usp=share_link',
+    img: 3,
+  },
+  {
+    name: "Feasibility Presentation",
+    date: '',
+    description: 'Version 2',
+    link: 'https://docs.google.com/presentation/d/15NLDZNZskq83J2HU6kZwF5ZOZlZ7fXBVb0GbkZTeVnI/edit#slide=id.g1520bd4a2b8_0_449',
     img: 3,
   }
 ]

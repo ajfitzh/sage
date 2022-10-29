@@ -76,7 +76,7 @@ const Home = () => {
         <Divider/>
         <br></br>
         <Typography variant='h4' sx={{textAlign:"center"}}>
-        CSE/IT students in Virginia lack a personalized path from career ideation to college enrollment, graduation, and a career powering Virginia’s tech economy.
+        Virginia students lack an interactive tool to plot their growing education achievements and qualifications, charting a course to their dream tech job
         </Typography>
         <br></br><br></br>
         <Divider/>

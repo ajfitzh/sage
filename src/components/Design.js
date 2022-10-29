@@ -14,7 +14,7 @@ let presentations = [
     name: 'Design Presentation',
     date: '',
     description: 'Version 1',
-    link: 'https://docs.google.com/presentation/d/e/2PACX-1vTS89QcB--Q6or6xUOgKlixJtGctIgtiDiFgeDJwdvfus4C0ou2kmiIhxyYVyEKoqiZEYTulZLjuVa9/embed?start=false&loop=false&delayms=3000',
+    link: 'https://docs.google.com/presentation/d/e/2PACX-1vRY3OTfbD6b3NQV8KPHBj4BBj0-zFuyZbd6kAra5455P69eld2qepFZaW2UpPJnDHHC4n51GAOVxESE/embed?start=false&loop=false&delayms=3000',
     img: 3,
   },
 ]

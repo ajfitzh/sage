@@ -31,7 +31,7 @@ let labsOne = [
     name: 'Austin',
     date: '',
     description: '',
-    link: 'https://docs.google.com/document/d/e/2PACX-1vR7jlgRnLbmj4f9BdjjqILT4Q8ekHBQ1AzZIkhHakZjiDT2QDpntU0kzajhPsvZiklaRipNG7ys2dxd/pub?embedded=true',
+    link: 'https://docs.google.com/document/d/e/2PACX-1vRsy8eI8JvCyE-cZMpUrTHVV6g42811ycPP9NcqH275MQgzzzMbw4xkY3c5XFP1gIdfkLG-SlpPjZdG/pub',
   },
   {
     name: 'Nathan',
