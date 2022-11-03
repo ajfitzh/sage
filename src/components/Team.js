@@ -14,7 +14,7 @@ let members = [
     name: 'Bret Dorgan',
     avatar: 1,
     bio: "Bret Dorgan is a Senior at ODU majoring in Computer Science. He is eager to help promote ODU with this project, and is looking forward to graduating in Spring 2023.",
-    role: "Team Lead / DB Specialist / Testing Specialist / Documentation Specialist",
+    role: "Team Lead / DB Specialist / Backup Documentation Specialist",
     major: "Computer Science",
     year: "2023",
     email: "bdorg001@odu.edu"
@@ -23,7 +23,7 @@ let members = [
     name: 'Austin Fitzhugh',
     avatar: 2,
     bio: "Austin is a senior at ODU, married with kids, and comes to this project with 5+ years experience in Advising and Coaching at the Community College level in Virginia. He is passionate about finding ways to connect students to better careers.",
-    role: "Webmaster / SageScore Specialist / ",
+    role: "SageScore Specialist / Testing / Backup UI/UX Specialist ",
     major: "CS",
     year: "2023",
     email: "afitz010@odu.edu"
@@ -32,7 +32,7 @@ let members = [
     name: 'Benjamin Gonzalez',
     avatar: 3,
     bio: "Benjamin Gonzalez is a senior at ODU studying computer science with a minor in cybersecurity. In his free time, he enjoys CrossFit, running, playing sports, and playing piano.",
-    role: "Researcher",
+    role: "Backend Specialist / Backup Testing Specialist",
     major: "CS",
     year: "2023",
     email: "bgonz006@odu.edu"
@@ -50,7 +50,7 @@ let members = [
     name: 'Marcus Jackson',
     avatar: 5,
     bio:"Marcus Jackson is a Senior majoring in Computer Science at Old Dominion University. He is a native of Mobile, Al and loves spending free time saltwater fishing.",
-    role: "UI Specialist / DB Specialist / Back-End Specialist",
+    role: "UI Specialist / Backup DB Specialist",
     major: "CS",
     year: "2023",
     email: "mjack040@odu.edu"
@@ -59,7 +59,7 @@ let members = [
     name: 'Isaac Replogle',
     avatar: 6,
     bio: "Isaac Replogle is a Senior at ODU studying Computer Science and is currently employed full-time at EFT Corporation. In his free time, he enjoys going on road trips, with his wife Georgia, to visit family or to go on hiking trips in the mountains.",
-    role: "Datbase Specialist / Back-end specialist / Testing Specialist / SageScore Expert",
+    role: "Database Specialist / Webmaster",
     major: "CS",
     year: "2023",
     email: "irepl001@odu.edu"
@@ -68,14 +68,14 @@ let members = [
     name: 'Trevor Simmons',
     avatar: 7,
     bio:"Trevor is a senior studying Cyber Operations and Computer Science at ODU. He has a variety of experience in software development, cybersecurity, and IT. In his free time he enjoys gaming, reading, and drawing. ",
-    role: "UI/UX Specialist / Back-End Specialist / SageScore Specialist",
+    role: "Back-End Specialist / Backup SageScore Specialist",
     major: "CS",
     year: "Senior",
     email: "tsimm033@odu.edu"
   },
   {
     name: 'Brenda Roston',
-    avatar: 10,
+    avatar: 11,
     bio:"We are so grateful to Brenda for her mentorship of this team! ",
     role: "Mentor",
     major: "",
