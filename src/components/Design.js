@@ -30,7 +30,7 @@ let maindeliverables = [
     name: "Database Schema",
     date: '',
     description: 'PlantUML Diagram',
-    link: 'https://dbdiagram.io/embed/63287f570911f91ba5e4b71f',
+    link: 'https://dbdiagram.io/d/6366df5bc9abfc6111708721',
     img: 4,
   },
   {
